@@ -18,5 +18,5 @@ In my bachelor thesis I developed a prototype that can be used for comprehensive
 #### What needs to be done soon:
 * Write a small guide on how to create and setup a linux virtual machine that can be used for analysis tasks
 * ~~Update my code to the latest stable version of Cuckoo Sandbox (v1.2)~~ **done!**(2015-09-15)
-* Do a pull request to the official Cuckoo Sandbox project
+* ~~Do a pull request to the official Cuckoo Sandbox project~~ **done!** see: https://github.com/cuckoosandbox/cuckoo/pull/807
 
