@@ -129,6 +129,8 @@ class Analyzer(object):
                 arguments = ["/bin/sh", self.target]
             elif ".pl" in self.config.file_name:
                 arguments = ["/bin/perl", self.target]
+            elif ".php" in self.config.file_name:
+                arguments = ["/usr/bin/php", self.target]
             else:
                 arguments = [self.target, '']
                 os.system("chmod +x " + str(self.target))
